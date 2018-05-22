@@ -1,3 +1,4 @@
+#Assuming the extracted data exists in the working directory
 library(lubridate)
 #Loading the extracted dataset
 hpc <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", na.strings = "?",stringsAsFactors = FALSE)
